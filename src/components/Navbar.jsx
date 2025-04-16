@@ -10,10 +10,14 @@ const Navbar = () => {
         setMenuOpen(!menuOpen)
     }
 
-    const handleLinkClick = () => {
+    const scrollToSection = (id) => {
+        document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+    };
+    
+    const handleLinkClick = (id) => {
         setMenuOpen(false)
+        scrollToSection(id);
     }
-
 
     return (
         <div>
@@ -21,10 +25,10 @@ const Navbar = () => {
                 <div className='logo'>Frantz-Sebastien Mathias</div>
                 <div>
                     <ul className='nav-links'>
-                        <li><a href='#about'>About</a></li>
-                        <li><a href='#experience'>Experience</a></li>
-                        <li><a href='#projects'>Projects</a></li>
-                        <li><a href='#contact'>Contact</a></li>
+                        <li><a onClick={() => scrollToSection("about")}>About</a></li>
+                        <li><a onClick={() => scrollToSection("experience")}>Experience</a></li>
+                        <li><a onClick={() => scrollToSection("projects")}>Projects</a></li>
+                        <li><a onClick={() => scrollToSection("contact")}>Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -42,12 +46,11 @@ const Navbar = () => {
                     <div className={`menu-links ${menuOpen ? "open" : ""}`} onClick={toggleMenu}>
                     {/* <div className="menu-links"> */}
                         <ul>
-                            <li><a href='#about' onClick={handleLinkClick}>About</a></li>
-                            <li><a href='#experience' onClick={handleLinkClick}>Experience</a></li>
-                            <li><a href='#projects' onClick={handleLinkClick}>Projects</a></li>
-                            <li><a href='#contact' onClick={handleLinkClick}>Contact</a></li>
+                            <li><a onClick={() => handleLinkClick("about")}>About</a></li>
+                            <li><a onClick={() => handleLinkClick("experience")}>Experience</a></li>
+                            <li><a onClick={() => handleLinkClick("projects")}>Projects</a></li>
+                            <li><a onClick={() => handleLinkClick("contact")}>Contact</a></li>
                         </ul>
-
                     </div>
                 </div>
             </nav>

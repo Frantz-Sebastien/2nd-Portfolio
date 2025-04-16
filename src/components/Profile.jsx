@@ -5,6 +5,13 @@ import linkedInIcon from "../assets/linkedIn.png"
 import gitHubIcon from "../assets/github.png"
 
 const Profile = () => {
+
+const scrollToSection = (id) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+    };
+      
+
+
   return (
     <section id="profile">
         <div className='section__pic-container'>
@@ -13,7 +20,7 @@ const Profile = () => {
         <div className='section__text'>
             <p className='section__text__p1'>Hello, I'm</p>
             <h1 className='title'>Frantz-Sebastien Mathias</h1>
-            <p className='section__text__p2'>Fullstack Developer</p>
+            <p className='section__text__p2'>Full Stack Developer</p>
             <div className='btn-container'>
                 <button
                     className='btn btn-color-2'
@@ -23,7 +30,7 @@ const Profile = () => {
                 </button>
                 <button
                     className='btn btn-color-1'
-                    onClick={() => window.location.href ="#contact"}
+                    onClick={() => scrollToSection("contact")}
                 >
                     Contact Info
                 </button>
