@@ -1,8 +1,8 @@
 import React from 'react'
 import profilePic from "../assets/fsm-profile-pic.png"
 import pdfResume from "../assets/fsm-resume.pdf"
-import linkedInIcon from "../assets/linkedIn.png"
-import gitHubIcon from "../assets/github.png"
+import linkedIn_Icon from "../assets/linkedIn.png"
+import github_Icon from "../assets/github.png"
 
 const Profile = () => {
 
@@ -36,8 +36,8 @@ const scrollToSection = (id) => {
                 </button>
             </div>
             <div id="socials-container">
-                <img src={linkedInIcon} alt="LinkedIn Profile" className='icon' onClick={() => window.location.href ="https://www.linkedin.com/in/fsmathias"} />
-                <img src={gitHubIcon} alt="GitHub Profile" className='icon' onClick={() => window.location.href ="https://github.com/Frantz-Sebastien"} />
+                <img src={linkedIn_Icon} alt="LinkedIn Profile" className='icon' onClick={() => window.location.href ="https://www.linkedin.com/in/fsmathias"} />
+                <img src={github_Icon} alt="GitHub Profile" className='icon' onClick={() => window.location.href ="https://github.com/Frantz-Sebastien"} />
             </div>
         </div>
     </section>
