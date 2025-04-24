@@ -1,6 +1,6 @@
 import React from 'react'
 import email from "../assets/email.png"
-import linkedIn_Icon from "../assets/linkedIn.png" 
+import linkedIn_Icon from "../assets/linkedin.png" 
 
 const Contact = () => {
   return (
