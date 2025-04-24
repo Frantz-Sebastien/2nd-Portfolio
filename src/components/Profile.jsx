@@ -1,7 +1,7 @@
 import React from 'react'
 import profilePic from "../assets/fsm-profile-pic.png"
 import pdfResume from "../assets/fsm-resume.pdf"
-import linkedIn_Icon from "../assets/linkedIn.png"
+import linkedIn_Icon from "../assets/linkedin.png"
 import github_Icon from "../assets/github.png"
 
 const Profile = () => {
