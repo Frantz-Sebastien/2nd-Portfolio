@@ -34,7 +34,7 @@ const About = () => {
                 </div>
                 <div className='text-container'>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quae exercitationem ipsum tempore voluptatum? Reiciendis quos tenetur in dolorum nesciunt, ipsum a modi asperiores ducimus incidunt harum inventore assumenda accusamus!
+                        I'm a Web Developer with a background in customer service and a passion for clean energy, AI, and tech-driven solutions. After 7+ years delivering technical support, I transitioned in web development through Pursuit's intensive fellowship. I specialize primarily in JavaScript, React, and SQL and I have built full-stack apps like a travel recommendation engine and an AI-powered resume generator. My mission is to empower people and make tech more accessible and impactful to the environment.
                     </p>
                 </div>
             </div>
