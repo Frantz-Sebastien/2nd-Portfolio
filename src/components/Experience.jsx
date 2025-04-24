@@ -19,8 +19,8 @@ const Experience = () => {
                         <article>
                             <img src={checkmark} className='icon'/>
                             <div>
-                                <h3>HTML</h3>
-                                <p>Intermediate</p>
+                                <h3>JavaScript</h3>
+                                <p>Experienced</p>
                             </div>
                         </article>
                         <article>
@@ -33,28 +33,28 @@ const Experience = () => {
                         <article>
                             <img src={checkmark} className='icon'/>
                             <div>
-                                <h3>HTML</h3>
+                                <h3>CSS</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
                             <img src={checkmark} className='icon'/>
                             <div>
-                                <h3>HTML</h3>
+                                <h3>React</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
                             <img src={checkmark} className='icon'/>
                             <div>
-                                <h3>HTML</h3>
-                                <p>Intermediate</p>
+                                <h3>Tailwind CSS</h3>
+                                <p>Basic</p>
                             </div>
                         </article>
                         <article>
                             <img src={checkmark} className='icon'/>
                             <div>
-                                <h3>HTML</h3>
+                                <h3>Bootstrap</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
@@ -68,43 +68,43 @@ const Experience = () => {
                         <article>
                             <img src={checkmark} className='icon'/>
                             <div>
-                                <h3>HTML</h3>
+                                <h3>Express</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src={checkmark} className='icon'/>
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src={checkmark} className='icon'/>
+                            <div>
+                                <h3>Python</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src={checkmark} className='icon'/>
+                            <div>
+                                <h3>PostgreSQL</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src={checkmark} className='icon'/>
+                            <div>
+                                <h3>Node JS</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
                             <img src={checkmark} className='icon'/>
                             <div>
-                                <h3>HTML</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src={checkmark} className='icon'/>
-                            <div>
-                                <h3>HTML</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src={checkmark} className='icon'/>
-                            <div>
-                                <h3>HTML</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src={checkmark} className='icon'/>
-                            <div>
-                                <h3>HTML</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src={checkmark} className='icon'/>
-                            <div>
-                                <h3>HTML</h3>
-                                <p>Intermediate</p>
+                                <h3>Java</h3>
+                                <p>Basic</p>
                             </div>
                         </article>
 
