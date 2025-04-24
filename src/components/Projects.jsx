@@ -1,7 +1,6 @@
 import React from 'react'
 import project1 from '../assets/project-1a.png'
 import workInProgress from '../assets/work-in-progress.png'
-import project3 from '../assets/project-3.png'
 import arrow from "../assets/arrow.png"
 
 
